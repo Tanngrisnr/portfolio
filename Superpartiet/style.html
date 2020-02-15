@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Style Guide</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="DataTables/datatables.min.css">
+    <link rel="stylesheet" href="stil.css">
+    <script src="jquery-3.2.0.min.js"></script>
+    <script src="DataTables/datatables.min.js"></script>
+    <script>
+
+           $(document).ready(function() {
+    $('#table').DataTable( {
+        "order": [[ 2, "desc" ]]
+    } );
+} );
+    </script>
+    </head>
+<body>
+<header><h1>H1 Bungee Shade</h1></header>
+<main>
+<nav>
+    <header><h2>Grid 1 - navigation</h2></header>
+    <ul>
+        <li><a href="style.html">Front-end Style Guide</a></li>
+        <li><a href="http://validator.w3.org/check/referer">Validera HTML</a></li>
+        <li><a href="http://jigsaw.w3.org/css-validator/check/referer"> Validera CSS</a></li>
+        <li><a href="index.php">Startsida</a></li>
+    </ul>
+</nav>
+<article>
+<div>
+    <header><h2>Grid 2 - centralt innehåll</h2></header>
+    <section>
+    <h3>Tabellexempel 1</h3>
+        <table id="table" class="display">
+    <thead><tr><th>Personnummer</th><th>Förnamn</th><th>Efternamn</th><th></th><th></th></tr></thead><tbody><tr><td>550418</td><td>Fredrika</td><td>Gnejs</td><td><a href='andra.php?pnumr=550418'>Ändra</a></td><td><a href='radera.php?pnumr=550418'>Radera</a></td></tr><tr><td>650607</td><td>Petter</td><td>Hökberg</td><td><a href='andra.php?pnumr=650607'>Ändra</a></td><td><a href='radera.php?pnumr=650607'>Radera</a></td></tr><tr><td>660505</td><td>Krall-Filip</td><td>Lunde</td><td><a href='andra.php?pnumr=660505'>Ändra</a></td><td><a href='radera.php?pnumr=660505'>Radera</a></td></tr><tr><td>760326</td><td>Matsson</td><td>Jansson</td><td><a href='andra.php?pnumr=760326'>Ändra</a></td><td><a href='radera.php?pnumr=760326'>Radera</a></td></tr><tr><td>760517</td><td>Bosse</td><td>Hårdbrö</td><td><a href='andra.php?pnumr=760517'>Ändra</a></td><td><a href='radera.php?pnumr=760517'>Radera</a></td></tr><tr><td>771111</td><td>Lisa-Maja</td><td>Koiskvältare</td><td><a href='andra.php?pnumr=771111'>Ändra</a></td><td><a href='radera.php?pnumr=771111'>Radera</a></td></tr><tr><td>810115</td><td>Stina</td><td>Muskelvad</td><td><a href='andra.php?pnumr=810115'>Ändra</a></td><td><a href='radera.php?pnumr=810115'>Radera</a></td></tr><tr><td>861003</td><td>Conny</td><td>Oskarsson</td><td><a href='andra.php?pnumr=861003'>Ändra</a></td><td><a href='radera.php?pnumr=861003'>Radera</a></td></tr><tr><td>901001</td><td>Agost</td><td>Bulle</td><td><a href='andra.php?pnumr=901001'>Ändra</a></td><td><a href='radera.php?pnumr=901001'>Radera</a></td></tr><tr><td>910614</td><td>Marja</td><td>Bergsprängare</td><td><a href='andra.php?pnumr=910614'>Ändra</a></td><td><a href='radera.php?pnumr=910614'>Radera</a></td></tr><tr><td>940418</td><td>Börje</td><td>Snyggpojke</td><td><a href='andra.php?pnumr=940418'>Ändra</a></td><td><a href='radera.php?pnumr=940418'>Radera</a></td></tr><tr><td>941223</td><td>Vera</td><td>Vårdkase</td><td><a href='andra.php?pnumr=941223'>Ändra</a></td><td><a href='radera.php?pnumr=941223'>Radera</a></td></tr><tr><td>950101</td><td>Emil</td><td>Lindstedt</td><td><a href='andra.php?pnumr=950101'>Ändra</a></td><td><a href='radera.php?pnumr=950101'>Radera</a></td></tr><tr><td>960123</td><td>Tommy</td><td>Coolgrabb</td><td><a href='andra.php?pnumr=960123'>Ändra</a></td><td><a href='radera.php?pnumr=960123'>Radera</a></td></tr><tr><td>970504</td><td>Erik</td><td>Calleberg</td><td><a href='andra.php?pnumr=970504'>Ändra</a></td><td><a href='radera.php?pnumr=970504'>Radera</a></td></tr></tbody>        </table>
+    </section>
+    <section>
+        <h3>Tabellexempel 2</h3>
+        <div class="center">
+        <table>
+             <thead><tr><th></th></tr></thead><tbody><tr><td>Roboträttigheter</td></tr><tr><td>Antirasism</td></tr><tr><td>Feminism</td></tr><tr><td>HBTQ-rättigheter</td></tr><tr><td>Vetenskap</td></tr><tr><td>Globalism</td></tr><tr><td>Vänskap</td></tr><tr><td>Miljö</td></tr><tr><td>Vård</td></tr><tr><td>Hedonism</td></tr></tbody>        </table>
+        </div>
+    </section>
+    <section>
+    <h3>Typsnitt och typografi:</h3>
+        <ul>
+            <li><h1>H1 - Bungee shade</h1></li>
+            <li><h2>H2 - Raleway</h2></li>
+            <li><h3>H3 - Raleway</h3></li>
+            <li><h4>H4 - Raleway</h4></li>
+            <li>Brödtext - Lato</li>
+        </ul>
+    </section>
+    </div>
+</article>
+<aside>
+    <header><h2>Grid 3 - extra</h2></header>
+    <section>
+    <h3>Formulär</h3>    
+                <form>
+        Första fält<br><input><br>
+        Andra fält<br><input><br>
+        Tredje fält<br><input><br>
+        <input type="submit" name="spara" value="Knapp">
+        </form>
+    </section>
+    <section>
+        <h3>Färg</h3>
+        <img src="palette.png" alt="Bild av färgpalett">
+    </section>
+        </aside>
+    </main>
+    </body>
+</html>
