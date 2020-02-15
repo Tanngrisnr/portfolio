@@ -3,7 +3,7 @@
 
 ## About
 
-This is a custom wordpress theme based on the understrap theme by Holger Koenemann which combines the wordpress underscores theme and bootstrap to create a boostrapped starter theme. The specific purpose of this theme was as a final project for my bachelor's degree and is custom made to be a planning platform and digital pinboard for an organization that is decentralized and relies on volunteer work from individuals interested in permaculture gardening. A full workbook for both the development and the design process is available as the PDF document in this directory.
+This is a custom wordpress theme based on the understrap theme by Holger Koenemann which combines the wordpress underscores theme and bootstrap to create a boostrapped starter theme. The specific purpose of this theme was as a final project for my bachelor's degree and is custom made to be a planning platform and digital pinboard for an organization that is decentralized and relies on volunteer work from individuals interested in permaculture gardening. A full workbook for both the development and the design process is available as the PDF document in this directory (full text is in Swedish, though there is an indroduction in English).
 
 ## Basic Features
 
