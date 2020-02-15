@@ -1,0 +1,178 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles he
+/*general*/
+html {
+  word-wrap: break-word;
+  overflow: scroll;
+}
+
+/*Typography*/
+
+p {
+  font-family: $font-family-serif;
+}
+.textwidget {
+  p {
+    font-family: $font-family-sans-serif;
+  }
+}
+.nav-previous,.nav-next {
+  a {
+    color: $white;
+  }
+}
+/*branding*/
+
+.swale_brand {
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14.5vw;
+  color:$white;
+  -webkit-text-stroke: 0.2vw $white;
+  -webkit-text-fill-color:transparent;
+  -ms-text-stroke: 0.2vw $white;
+  -ms-text-fill-color:transparent;
+  -moz-text-stroke: 0.2vw $white;
+  -moz-text-fill-color:transparent;
+
+  a {
+    font-weight: inherit;
+    text-align: inherit;
+    font-size: inherit;
+    color:inherit;
+    &:hover {
+      -webkit-text-fill-color:$white;
+      -ms-text-fill-color:$white;
+      -moz-text-fill-color:$white;
+      text-decoration: none;
+    }
+  }
+}
+.navbar-brand {
+  svg {
+    width: 3vmax !important;
+    height: auto !important;
+  }
+  img {
+    width: 3vmax !important;
+    height: auto !important;
+  }
+}
+
+#archive-wrapper,#search-wrapper,#author-wrapper {
+  padding-top: 0;
+  margin-top: 0;
+  .page-header,.author-header {
+    background-color: $gray-200;
+    .taxonomy-description {
+      p {
+        font-family: $font-family-sans-serif;
+      }
+    }
+  }
+}
+#wrapper-static-hero, .page-header {
+  border-bottom: .3vw solid $secondary;
+}
+/*backgrounds*/
+
+body {
+    background-repeat: repeat-y !important;
+    background-size: auto !important;
+    background-position: center !important;
+    background-color: lighten($verdant_Green, 25%) !important;
+}
+
+#wrapper-footer {
+  background-color: $gray-200;
+}
+
+
+/*content area*/
+
+.category-prakarbete {
+  .entry-title {
+    color: $verdant_Green;
+    a {
+      color: $verdant_Green;
+    }
+  }
+  box-shadow: .3vw .3vw $verdant_Green;
+}
+
+.category-pedagogik {
+  .entry-title {
+    color: $very_violet;
+    a {
+      color: $very_violet;
+    }
+  }
+  box-shadow: .3vw .3vw $very_violet;
+}
+
+.category-natverksbyggande {
+  .entry-title {
+    color: $blue-Green;
+    a {
+      color: $blue-Green;
+    }
+  }
+  box-shadow: .3vw .3vw $blue-Green;
+}
+
+.category-finans {
+  .entry-title {
+    color: $softest_pink;
+    a {
+      color: $softest_pink;
+    }
+  }
+  box-shadow: .3vw .3vw $softest_pink;
+}
+
+aside {
+  background-color: $white;
+  padding:.5vw;
+  margin: .5vw .5vw .5vw .5vw;
+  border-radius: 1vw;
+}
+
+article {
+  background-color: $white;
+  padding:1vw;
+  margin: 1vw 1vw 1vw 1vw;
+  border-radius: 1vw;
+  box-shadow: .3vw .3vw $verdant_Green;
+}
+#single-wrapper {
+  main {
+    background-color: $white;
+    padding:1vw;
+    margin: 1vw 1vw 1vw 1vw;
+    border-radius: 1vw;
+    box-shadow: .3vw .3vw $verdant_Green;
+    article {
+      box-shadow: none;
+    }
+  }
+}
+
+#footer-full-content {
+
+  .row {
+    .footer-widget {
+      vertical-align: middle;
+      padding: 1.5vw;
+        ul {
+          padding-left: 0;
+          list-style-type: none !important;
+          li {
+            color: $secondary !important;
+            a {
+              color: inherit;
+            }
+          }
+      }
+    }
+  }
+}

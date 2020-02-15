@@ -1,0 +1,51 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+/*--------------------------------------------------------------
+# Colors
+
+Colors used in text, background elements, buttons, and other elements.
+
+$verdant_Green: #6ebd8d;
+$verdant_Green_Strong: #62b774;
+$leaf_Green: #3fa535;
+$fall_yellow: #bdbd70;
+$earthen_red: #bd7070;
+$blue-Green: #76c5ba;
+$nourishing_Blue: #52c3f1;
+$softest_pink: #f7d0c5;
+$fourG_Black: #070a15;
+
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,900|Source+Sans+Pro:400,700|Source+Serif+Pro:400,700&display=swap');
+@import '../../fonts/SourceSansPro-regular.ttf';
+@import '../../fonts/SourceSerifPro-regular.ttf';
+@import '../../fonts/SourceCodePro-regular.ttf';
+
+/*Typography*/
+$font-family-sans-serif:      "Source Sans Pro", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-serif:           "Source Serif Pro", serif;
+$font-family-monospace:       "Source Code Prp", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+$headings-font-family:        $font-family-sans-serif !default;
+$headings-font-weight:        600 !default;
+$enable-responsive-font-sizes: true !important;
+
+
+/*Colors*/
+
+$verdant_Green: #6ebd8d !default;
+$very_violet: #bd6e9e !default;
+$fall_yellow: #bdbd70 !default;
+$earthen_red: #bd7070 !default;
+$blue-Green: #76c5ba !default;
+$softest_pink: #f7d0c5 !default;
+$fourG_Black: #070a15 !default;
+
+$primary: $verdant_Green !default;
+$secondary: $very_violet !default;
+$success: $softest_pink !default;
+$info: $blue-Green !default;
+$warning: $fall_yellow !default;
+$danger: $earthen_red !default;
+$black: $fourG_Black !default;
