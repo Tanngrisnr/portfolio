@@ -1,0 +1,34 @@
+/*
+Theme Name: Swalestrap
+Theme URI: null
+Author: Fredrik Wintzell
+Author URI: null Theme URI: null
+Description: A specialized theme built on Understrap a Combination of Automattic´s _s theme and Bootstrap 4. This theme is built specifically as a digital platform for organisations to share long term goals and information in a transparent and open way.
+
+Version: 1.0
+License: Understrap WordPress Theme, Copyright 2013-2017 Holger Koenemann
+Understrap is distributed under the terms of the GNU GPL version 2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Text Domain: swalestrap
+Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+swalestrap is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+
+Resource Licenses:
+Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+/*
+This file is just used to identify the theme in WordPress.
+The compiled CSS output can be found in /css/theme.css
+The SASS sources for it can be found in /sass/
+The dependencies can be found in /src/ after running "gulp copy-assets" terminal command
+
+...and now go out and play!
+*/
