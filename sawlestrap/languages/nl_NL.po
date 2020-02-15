@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: swalestrap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-17 17:56+0000\n"
+"PO-Revision-Date: 2018-07-12 20:51+0000\n"
+"Last-Translator: vincent <v.vanbergen@gmail.com>\n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Source-Locale: en-NL\n"
+"X-Loco-Project-Id: 19218\n"
+"X-Loco-Api-Version: 1.0.15 20161122-1"
+
+#: search.php:29
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: header.php:34
+msgid "Skip to content"
+msgstr "Ga naar inhoud"
+
+#: 404.php:24
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! Deze pagina kan niet worden gevonden."
+
+#: 404.php:31
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Het lijkt erop dat er niets gevonden is op deze locatie. Probeer anders "
+"&#233;&#233;n van de onderstaande links of een zoekopdracht? "
+
+#: 404.php:42
+msgid "Most Used Categories"
+msgstr "Meestgebruikte categorie&#235;n"
+
+#. translators: %1$s: smiley
+#: 404.php:62
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Wellicht kun je kijken in de maandelijkse archieven. %1$s"
+
+#: author.php:34
+msgid "About:"
+msgstr "Over:"
+
+#: author.php:42 inc/custom-comments.php:30
+msgid "Website"
+msgstr "Website"
+
+#: author.php:49
+msgid "Profile"
+msgstr "Profiel"
+
+#: author.php:54
+msgid "Posts by"
+msgstr "Berichten van"
+
+#: author.php:68
+msgid "in"
+msgstr "in"
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Een reactie op &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s reacties op &ldquo;%2$s&rdquo;"
+
+#: comments.php:36 comments.php:59
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: comments.php:38 comments.php:61
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere reacties"
+
+#: comments.php:42 comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere reacties &rarr;"
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: footer.php:27
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:28
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Met trots ondersteund door %s"
+
+#: footer.php:31
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s van %2$s."
+
+#: footer.php:33
+#, php-format
+msgid "Version: %1$s"
+msgstr "Versie: %1$s"
+
+#: searchform.php:10 searchform.php:16
+msgid "Search"
+msgstr "Zoek"
+
+#: searchform.php:13
+msgid "Search &hellip;"
+msgstr "Zoek &hellip;"
+
+#: loop-templates/content-card.php:43 loop-templates/content-page.php:25
+#: loop-templates/content.php:37 loop-templates/content-single.php:31
+#: loop-templates/content-verticalpage.php:28
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: loop-templates/content-page.php:34
+#: loop-templates/content-verticalpage.php:37
+msgid "Edit"
+msgstr "Bewerk"
+
+#: loop-templates/content-none.php:15
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: loop-templates/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Klaar om je eerste bericht te plaatsen? <a href=\"%1$s\">Begin hier</a>."
+
+#: loop-templates/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Helaas, er waren geen overeenkomsten met jouw zoekopdracht. Probeer het "
+"opnieuw met enkele andere zoekwoorden."
+
+#: loop-templates/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Het lijkt erop dat wij niet kunnen vinden wat jij zoekt. Wellicht dat de "
+"zoekfunctie kan helpen."
+
+#. Name of the template
+msgid "Blank Page Template"
+msgstr "Blank Pagina Sjabloon"
+
+#. Name of the template
+msgid "Left and Right Sidebar Layout"
+msgstr "Linker en Rechter Zijbalk"
+
+#. Name of the template
+msgid "Empty Page Template"
+msgstr "Leeg Pagina Sjabloon"
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr "Volledige breedte"
+
+#. Name of the template
+msgid "Left Sidebar Layout"
+msgstr "Linker Zijbalk"
+
+#. Name of the template
+msgid "Vertical One Page"
+msgstr "Verticale Enkele Pagina"
+
+#: inc/template-tags.php:18
+#, php-format
+msgid " Edited %4$s"
+msgstr " Bewerkt op %4$s"
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Geplaatst op %s"
+
+#: inc/template-tags.php:34
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "door %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:51 inc/template-tags.php:57
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:53
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Geplaatst in %1$s"
+
+#: inc/template-tags.php:59
+#, php-format
+msgid "Tagged %1$s"
+msgstr "%1$s getagd"
+
+#: inc/template-tags.php:65
+msgid "Leave a comment"
+msgstr "Plaats een reactie"
+
+#: inc/template-tags.php:65
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+#: inc/template-tags.php:65
+msgid "% Comments"
+msgstr "% Reacties"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#: inc/template-tags.php:143
+msgid "Post navigation"
+msgstr "Bericht Navigatie"
+
+#: inc/template-tags.php:148
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:151
+msgctxt "Next post link"
+msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/setup.php:51
+msgid "Primary Menu"
+msgstr "Hoofdmenu"
+
+#: inc/setup.php:122
+msgid "Read More..."
+msgstr "Lees verder..."
+
+#: inc/widgets.php:14
+msgid "Right Sidebar"
+msgstr "Rechter zijbalk"
+
+#: inc/widgets.php:24
+msgid "Left Sidebar"
+msgstr "Linkel zijbalk"
+
+#: inc/widgets.php:34
+msgid "Hero Slider"
+msgstr "Hero Slider"
+
+#: inc/widgets.php:44
+msgid "Hero Static"
+msgstr "Hero Static"
+
+#: inc/widgets.php:54
+msgid "Footer Full"
+msgstr "Footer (volledige breedte)"
+
+#: inc/custom-comments.php:24
+msgid "Name"
+msgstr "Naam"
+
+#: inc/custom-comments.php:27
+msgid "Email"
+msgstr "Email"
+
+#: inc/custom-comments.php:49
+msgctxt "noun"
+msgid "Comment"
+msgstr "Reactie"
+
+#: inc/customizer.php:36
+msgid "Slider Settings"
+msgstr "Sliderinstellingen"
+
+#: inc/customizer.php:45
+msgid "Number of slides displaying at once"
+msgstr "Aantal gelijktijdig vertoonde slides"
+
+#: inc/customizer.php:57
+msgid "Slider Time (in ms)"
+msgstr "Slidertijd (in ms)"
+
+#: inc/customizer.php:69
+msgid "Loop Slider Content"
+msgstr "Sliderinhoud herhalen"
+
+#: inc/customizer.php:81
+msgid "Theme Layout Settings"
+msgstr "Thema Layout Instellingen"
+
+#: inc/customizer.php:83
+msgid "Container width and sidebar defaults"
+msgstr "Container breedte en zijbalk standaarden"
+
+#: inc/customizer.php:98
+msgid "Container Width"
+msgstr "Container Breedte"
+
+#: inc/customizer.php:99
+msgid "Choose between Bootstrap's container and container-fluid"
+msgstr "Kies tussen Bootstrap's container en container-fluid"
+
+#: inc/customizer.php:104
+msgid "Fixed width container"
+msgstr "Container met vaste breedte"
+
+#: inc/customizer.php:105
+msgid "Full width container"
+msgstr "Container met vollege breedte"
+
+#: inc/customizer.php:122
+msgid "Sidebar Positioning"
+msgstr "Zijbalk Positie"
+
+#: inc/customizer.php:123
+msgid "Set sidebar's position. Can either be: right, left, both or none"
+msgstr "Stel positie zijbalk in. Kan zijn: rechts, links, beiden of geen"
+
+#: inc/customizer.php:129
+msgid "Right sidebar"
+msgstr "Rechter zijbalk"
+
+#: inc/customizer.php:130
+msgid "Left sidebar"
+msgstr "Linker zijbalk"
+
+#: inc/customizer.php:131
+msgid "Left & Right sidebars"
+msgstr "Linker & Rechter zijbalken"
+
+#: inc/customizer.php:132
+msgid "No sidebar"
+msgstr "Geen zijbalk"
+
+#: inc/customizer.php:150
+msgid "Posts Index Style"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Choose how to display latest posts"
+msgstr "Kies de weergave van laatste berichten"
+
+#: inc/customizer.php:156
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/customizer.php:157
+msgid "Masonry"
+msgstr "Metselwerk"
+
+#: inc/customizer.php:158
+msgid "Grid"
+msgstr "Rooster"
+
+#: inc/customizer.php:187
+msgid "Grid Post Columns"
+msgstr "Rooster Bericht kolommen"
+
+#: inc/customizer.php:188
+msgid "Choose how many columns to use"
+msgstr "Kies het aantal kolommen"
+
+#. Name of the theme
+msgid "swalestrap"
+msgstr "swalestrap"
+
+#. Author of the theme
+msgid "Fredrik Wintzell"
+msgstr "Fredrik Wintzell"
