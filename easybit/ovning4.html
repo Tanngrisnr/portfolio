@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="easybit_favicon.png">
+<link rel="apple-touch-icon" href="easybit_favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+<link rel="stylesheet" href="style.css">
+<title>Easy:bit</title>
+</head>
+<body>
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left sidmeny" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-hover-white w3-large w3-xlarge"
+  onclick="w3_close()">Stäng &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button w3-hover-white">Startsida</a>
+  <a href="pdf.html" class="w3-bar-item w3-button w3-hover-white">Ordbok</a>
+  <a href="https://www.microbit.org" class="w3-bar-item w3-button w3-hover-white">Microbit.org Micro:bits officiella webbplats</a>
+      <div class="w3-dropdown-hover">
+    <button class="w3-button">Övningar
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="ovning1.html" class="w3-bar-item w3-button">Övning 1</a>
+      <a href="ovning2.html" class="w3-bar-item w3-button">Övning 2</a>
+      <a href="ovning3.html" class="w3-bar-item w3-button">Övning 3</a>
+      <a href="ovning4.html" class="w3-bar-item w3-button">Övning 4</a>
+    </div>
+  </div> 
+</div>
+<main zclass="w3-main" id="main">
+
+<header class=super>
+  <button class="w3-button w3-hover-none w3-xxxlarge" onclick="w3_open()">&#9776;</button>
+    <h1>Easy:bit</h1></header>
+    <div class="central">
+        <header><h2>Övning 4 - Miniräknare</h2></header>
+              <section class="textbox"><header><h3>Intro</h3></header>
+                I denna övning kommer vi använda oss utav variabler för att bygga en enkel adderande miniräknare. Denna övning är mer avancerad än de tidigare övningarna så vi rekommenderar att du provar dem först, samt läser i vår ordbok om du fastnar någonstans, samt för att öka din förståelse för de olika systemen.
+              </section>
+              <div class="display">
+                 <iframe width="853" height="480" src="https://www.youtube.com/embed/lm6N1dC3des?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <section class="textbox"><header><h3>Steg 1</h3></header>
+                  Börja med att skapa två variabler genom att hämta två stycken av kodblocket <code>set item to 0</code> och byt <code>item</code> till variabelnamnen <code>number1</code> och <code>number2</code>. Behåll deras standardvärden av 0.
+              </section>
+              <section class="textbox"><header><h3>Steg 2</h3></header>
+                  Hämta två <code>on button A pressed</code>-block och byt knappen på en av dem så dess text visar <code>on button B pressed</code>. I klamrarna av dessa placerar du sedan varsitt <code>change item by 1</code>-block och byt standard variabeln <code>item</code> till <code>number1</code> i den ena och <code>number2</code> i den andra. Nu kommer du kunna ändra värdet i respektevie variabel genom att trycka på deras motsvarande knappar. knapp A kommer alltså öka värdet av variabeln <code>number1</code> med 1 och likadant för <code>number2</code>-variabeln. För att sedan visa värdet placerar du också ett <code>show number</code>-block i vardera <code>input</code>-klammer. För att få <code>show number</code>-blocket att visa samma värde som dina <code>number1</code>- och <code>number2</code>-variabler så måste du hämta variablerna själva från Variableskategorin. Placera sedan dess i fälter för att skriva in siffror i <code>show number</code>-blocket. Detta kommer ge <code>show number</code>-blocken samma värde som variablerna.
+              </section>
+              <section class="textbox"><header><h3>Steg 3</h3></header>
+                  För att addera värdena av dina variablerna hämtar du först ett <code>on button A press</code>-block från Input och förändrar knappen till A+B, alltså aktiveras denna funktion när båda knapparna trycks in samtidigt. Hämta sedan blocket <code>set item to 0</code>, placera det i klammern och byt variabel från <code>item</code> till <code>total</code>. Hämta sedan ett <code>0 + 0</code>-block från Math och placera det i nummerfältet av <code>set item/total to</code>-blocket. Placera sedan variabelblocken <code>number1</code> och <code>number2</code> i varsitt nummerfält av <code>0 + 0</code>-blocket. Lägg sedan till ett <code>show number</code>-block från Basic och placera variabeln <code>total</code> i nummerfältet. Nu kommer värdet i variablerna <code>number1</code> och <code>number2</code> att aderas och skrivas ut genomm att du trycker på knapp A och B samtidigt.
+              </section>
+              <section class="textbox"><header><h3>Steg 4</h3></header>
+                  För att sedan återställa räknaren och ge variablerna nya värden så hämtar vi först ett <code>on shake</code>-block ur Input. Sedan hämtar vi två <code>set item to 0</code> ur Variables placerar dem i klammern. Sedan ändrar vi <code>item</code> i variabelblocken till <code>number1</code> och <code>number2</code>. Nu kommer räknarens värden återställas till 0 genom att du skakar din Micro:bit.
+              </section>
+              <section class="textbox"><header><h3>Behöver du mer hjälp?</h3></header>
+                  Använd dig utav vår ordbok för mer information om de individuella kodblocken. Du kan hämta, eller bläddra i den genom att klicka på <a href="pdf.html">denna länk.</a>
+              </section>
+    </div>
+    <footer>
+        Denna sida är skapad av studenter i syftet för att lära ut micro:bit till lärare och lärarstudenter. Sidan är inte vinstdrivande och politiskt oberoende.<br>
+        <a href="easybit_front-style/index.html" class="link">Front-end Style guide</a>
+    </footer>
+    </main>
+</body>
+</html>

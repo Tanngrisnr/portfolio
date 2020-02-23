@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="easybit_favicon.png">
+<link rel="apple-touch-icon" href="easybit_favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+<link rel="stylesheet" href="style.css">
+<title>Easy:bit</title>
+</head>
+<body>
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left sidmeny" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-hover-white w3-large w3-xlarge"
+  onclick="w3_close()">Stäng &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button w3-hover-white">Startsida</a>
+  <a href="pdf.html" class="w3-bar-item w3-button w3-hover-white">Ordbok</a>
+  <a href="https://www.microbit.org" class="w3-bar-item w3-button w3-hover-white">Microbit.org Micro:bits officiella webbplats</a>
+      <div class="w3-dropdown-hover">
+    <button class="w3-button">Övningar
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="ovning1.html" class="w3-bar-item w3-button">Övning 1</a>
+      <a href="ovning2.html" class="w3-bar-item w3-button">Övning 2</a>
+      <a href="ovning3.html" class="w3-bar-item w3-button">Övning 3</a>
+      <a href="ovning4.html" class="w3-bar-item w3-button">Övning 4</a>
+    </div>
+  </div> 
+</div>
+<main zclass="w3-main" id="main">
+
+<header class=super>
+  <button class="w3-button w3-hover-none w3-xxxlarge" onclick="w3_open()">&#9776;</button>
+    <h1>Easy:bit</h1></header>
+    <div class="central">
+        <header><h2>Övning 1 - Övningssida</h2></header>
+              <section class="textbox"><header><h3>Layout</h3></header>
+                  Detta är den layout som används för alla sidor med övningar, först en introducerande text som talar om för användare vad de kommer lära sig, sedan en video, och sedan skriftliga instruktioner som funkar oberoende av videon.
+              </section>
+              <div class="display">
+                 <iframe width="853" height="480" src="https://www.youtube.com/embed/SXW60E7-suQ?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <section class="textbox"><header><h3>Boxar</h3></header>
+                  Instruktionerna skrivs i textboxar som denna, de är upplagda steg för steg.
+              </section>
+              <section class="textbox"><header><h3>Kodblock</h3></header>
+                  HTML-taggen <code>code</code> används för att poängtera namnen på olika kodblock, till exempel <code>show string</code>-blocket som poängteras ut med sin bakgrundsfärg och typsnitt.
+              </section>
+              <section class="textbox"><header><h3>I samband med video</h3></header>
+                  Det är tänkt att man skall göra övningarna genom att använda sig av både övningsvideo och text, men båda är producerade så den ena kan fungera oberoende av den andra.
+              </section>
+              <section class="textbox"><header><h3>Behöver du mer hjälp?</h3></header>
+                  Till sist finns det en snabblänk till ordboken ifall användaren behöver hjälp med att förstå funktionerna. Den nås genom <a href="pdf.html">denna länk.</a>
+              </section>
+    </div>
+    <footer>
+        Denna sida är skapad av studenter i syftet för att lära ut micro:bit till lärare och lärarstudenter. Sidan är inte vinstdrivande och politiskt oberoende.<br>
+        <a href="../index.html" class="link">Tillbaka till Easy:bit</a>
+    </footer>
+    </main>
+</body>
+</html>

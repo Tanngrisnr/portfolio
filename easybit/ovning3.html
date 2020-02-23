@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="easybit_favicon.png">
+<link rel="apple-touch-icon" href="easybit_favicon.png">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+<link rel="stylesheet" href="style.css">
+<title>Easy:bit</title>
+</head>
+<body>
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left sidmeny" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-hover-white w3-large w3-xlarge"
+  onclick="w3_close()">Stäng &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button w3-hover-white">Startsida</a>
+  <a href="pdf.html" class="w3-bar-item w3-button w3-hover-white">Ordbok</a>
+  <a href="https://www.microbit.org" class="w3-bar-item w3-button w3-hover-white">Microbit.org Micro:bits officiella webbplats</a>
+      <div class="w3-dropdown-hover">
+    <button class="w3-button">Övningar
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="ovning1.html" class="w3-bar-item w3-button">Övning 1</a>
+      <a href="ovning2.html" class="w3-bar-item w3-button">Övning 2</a>
+      <a href="ovning3.html" class="w3-bar-item w3-button">Övning 3</a>
+      <a href="ovning4.html" class="w3-bar-item w3-button">Övning 4</a>
+    </div>
+  </div> 
+</div>
+<main zclass="w3-main" id="main">
+
+<header class=super>
+  <button class="w3-button w3-hover-none w3-xxxlarge" onclick="w3_open()">&#9776;</button>
+    <h1>Easy:bit</h1></header>
+    <div class="central">
+        <header><h2>Övning 3 - Ja eller nej</h2></header>
+              <section class="textbox"><header><h3>Intro</h3></header>
+                      I denna övning kommer du lära dig om hur du kan starta en funktion med hjälp av knapptryck, hur en enkel sant/falskt funktion fungerar, samt hur du kan lägga till ljud till dina funktioner.
+              </section>
+              <div class="display">
+                 <iframe width="853" height="480" src="https://www.youtube.com/embed/fMpYjK3ewIU?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+
+              <section class="textbox"><header><h3>Steg 1</h3></header>
+                      Hämta inputblocket <code>on button A pressed</code> från kategorin Input, hämta sedan de dubbelklamradrade <code>if true then else</code> ur kategorin Logic och placera det innaför klamrarna av <code>on button A pressed</code>.
+              </section>
+                  <section class="textbox"><header><h3>Steg 2</h3></header>
+                      Hämta blocket <code>pick random true or false</code> från kategorin Math och placera det ovanpå <code>true</code> i blocket <code>if true then else</code>. Detta betyder att när du trycker på A-knappen i din micro:bit så kommer den slupmässigt välja om den skall aktivera klammern <code>true</code> eller <code>else</code> i <code>if true then else</code>-blocket.
+              </section>
+                  <section class="textbox"><header><h3>Steg 3</h3></header>
+                      Hämta nu två <code>show string</code>-kodblock ur Basic och placer dem i <code>true</code>-klammern och i <code>else</code>-klammern. Bestäm värdet på dem båda. Förslagsvis "Ja" i <code>true</code> och "Nej" i <code>else</code>. Detta innebär att när du trycker på A knappen i din microbit så kommer den slumpa mellan att visa "Ja" eller "Nej". För att göra effekten av detta starkare kan du sedan hämta två av blocket <code>play tone</code> ur Music och placera vardera i <code>true</code> och <code>else</code> tillsammans med <code>show string</code>-blocken. Du kan sedan välja en ton som spelas upp i samband med att <code>if</code>-blocket ger ett utslag. Till exempel en ljus ton för "Ja" och en mörk ton för "Nej".
+              </section>
+              <section class="textbox"><header><h3>Behöver du mer hjälp?</h3></header>
+                  Använd dig utav vår ordbok för mer information om de individuella kodblocken. Du kan hämta, eller bläddra i den genom att klicka på <a href="pdf.html">denna länk.</a>
+              </section>
+    </div>
+    <footer>
+        Denna sida är skapad av studenter i syftet för att lära ut micro:bit till lärare och lärarstudenter. Sidan är inte vinstdrivande och politiskt oberoende.<br>
+        <a href="easybit_front-style/index.html" class="link">Front-end Style guide</a>
+    </footer>
+    </main>
+</body>
+</html>
